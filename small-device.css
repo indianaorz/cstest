@@ -1,0 +1,40 @@
+@media (max-width:600px){
+
+    .hero__rocket{
+        height:100%;
+        background-image: url(background-rocket.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .hero__rocket-red{
+        height:100%;
+        background-image: url(background-rocket.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .content{
+        background-color: #FFF;
+        /* padding: 24px; */
+        /* max-width: 50rem; */
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .navigation-bar{
+        position: fixed;
+        left:-25%;
+        height: 100%;
+        background-color: white;
+        width: 25%;
+        z-index: 4;
+        border-right: #888 solid 1px;
+    }
+    
+}
